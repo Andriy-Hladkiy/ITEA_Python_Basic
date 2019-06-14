@@ -15,7 +15,3 @@ while True:
 print(count)
 print(sum)
 print(mid)
-
-
-
-

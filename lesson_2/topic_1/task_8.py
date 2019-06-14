@@ -7,9 +7,3 @@ for i in number:
 print(sum)
 
 number = int(input('Enter number: '))
-
-
-
-
-
-

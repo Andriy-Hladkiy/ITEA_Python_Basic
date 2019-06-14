@@ -7,6 +7,4 @@ for i in matrix:
         matrix_sum += j
     k += 1
 
-
 print(matrix_sum)
-

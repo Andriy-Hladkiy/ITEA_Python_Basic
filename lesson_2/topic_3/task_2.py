@@ -1,16 +1,16 @@
-def sum(massive):
+def sum(array):
     sum = 0
-    for i in massive:
+    for i in array:
         sum += i
     print(sum)
 
 
-def sort(massive):
-    massive.sort(key=lambda x: sum(map(str, x)), reverse=True)
-    print(massive)
+def sort(array):
+    array.sort(key=lambda x: sum(map(str, x)), reverse=True)
+    print(array)
 
 
-massive = [14, 30, 103]
+array = [14, 30, 103]
 
-sum(massive)
-sort(massive)
+sum(array)
+sort(array)
