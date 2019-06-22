@@ -15,7 +15,6 @@ while True:
         count += 1
         sum += number
         mid = sum/count
-        continue
 
 print(count)
 print(sum)

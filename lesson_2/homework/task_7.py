@@ -9,16 +9,14 @@ number = random.randint(1, 100)
 while True:
     while 1:
         try:
-            yourNumber = int(input('Enter your number: '))
+            your_number = int(input('Enter your number: '))
             break
         except ValueError:
             print("Ви помилились. Спробуйте знову.")
-    if yourNumber > number:
+    if your_number > number:
         print('Ваше число завелике')
-        continue
-    elif yourNumber == number:
+    elif your_number < number:
+        print('Ваше число замале')
+    else:
         print('Ви вгадали:)')
         break
-    else:
-        print('Ваше число замале')
-        continue

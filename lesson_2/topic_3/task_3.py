@@ -16,6 +16,6 @@ def set_array(start_of_range, end_of_range, m=8):
     return result
 
 
-start_of_range = 2
-end_of_range = 8
+start_of_range = int(input('Enter start: '))
+end_of_range = int(input('Enter end: '))
 print(set_array(start_of_range, end_of_range))
